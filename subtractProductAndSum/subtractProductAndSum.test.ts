@@ -1,4 +1,4 @@
-import type * as SubtractProductAndSum from "../subtractProductAndSum";
+import type * as SubtractProductAndSum from "./subtractProductAndSum";
 const { subtractProductAndSum } = jest.requireActual<
   typeof SubtractProductAndSum
 >("../subtractProductAndSum");

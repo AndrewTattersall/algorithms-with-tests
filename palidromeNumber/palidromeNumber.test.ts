@@ -1,4 +1,4 @@
-import type * as PalidromeNumber from "../palidromeNumber";
+import type * as PalidromeNumber from "./palidromeNumber";
 const { palidromeNumber } =
   jest.requireActual<typeof PalidromeNumber>("../palidromeNumber");
 

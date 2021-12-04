@@ -1,4 +1,4 @@
-import type * as SmallerNumbers from "../smallerNumbers";
+import type * as SmallerNumbers from "./smallerNumbers";
 const { smallerFunction } =
   jest.requireActual<typeof SmallerNumbers>("../smallerNumbers");
 

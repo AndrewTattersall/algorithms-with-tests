@@ -1,4 +1,4 @@
-import type * as TwoSum from "../twoSum";
+import type * as TwoSum from "./twoSum";
 const { twoSum } = jest.requireActual<typeof TwoSum>("../twoSum");
 
 describe("return indices of the two numbers that sum to target", () => {
